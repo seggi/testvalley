@@ -1,0 +1,48 @@
+.Home {
+  .itemsCategory {
+    min-width: 200px !important;
+    max-width: 200px !important;
+    height: 300px;
+    padding-right: 40px;
+  }
+  .itemsCategoryTitle {
+    font-size: 24px;
+  }
+  .itemsCategorySubTitle {
+    color: #999;
+  }
+  .itemsRow {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .itemTagOnImage {
+    font-size: 12px;
+    margin-top: -25px !important;
+    span {
+      background-color: #009e8a;
+    }
+  }
+  .itemTagOnDesc {
+    font-size: 10px;
+    color: #eb1c1c;
+    background-color: #fff7f7;
+  }
+  .itemTitle {
+    font-size: 15px;
+  }
+  .discountRate {
+    color: #ff5023;
+    font-size: 18px;
+  }
+  .itemPrice {
+    font-size: 18px;
+  }
+  .itemCard {
+    min-width: 174px;
+    max-width: 174px;
+    height: 339px;
+  }
+}

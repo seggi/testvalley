@@ -1,0 +1,26 @@
+$colors: (
+  light-green: #00d094,
+);
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}
+
+// background
+@each $name, $hex in $colors {
+  .bg-#{$name} {
+    background-color: $hex;
+  }
+}
+// text color
+@each $name, $hex in $colors {
+  .text-#{$name} {
+    color: $hex;
+  }
+}
+// border color
+@each $name, $hex in $colors {
+  .border-#{$name} {
+    border-color: $hex;
+  }
+}
